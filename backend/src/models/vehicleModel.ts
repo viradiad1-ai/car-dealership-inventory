@@ -24,6 +24,20 @@ export const getAllVehicles = async () => {
 
   return result.rows;
 };
+
+/* ===== ADD THIS FUNCTION ===== */
+
+export const getVehicleById = async (id: number) => {
+  const result = await pool.query(
+    "SELECT * FROM vehicles WHERE id = $1",
+    [id]
+  );
+
+  return result.rows[0];
+};
+
+/* ============================= */
+
 export const searchVehiclesByFilter = async (filters: any) => {
   let query = "SELECT * FROM vehicles WHERE 1=1";
   const values: any[] = [];
@@ -57,6 +71,7 @@ export const searchVehiclesByFilter = async (filters: any) => {
 
   return result.rows;
 };
+
 export const updateVehicleById = async (
   id: number,
   make: string,
@@ -79,6 +94,7 @@ export const updateVehicleById = async (
 
   return result.rows[0];
 };
+
 export const deleteVehicleById = async (id: number) => {
   const result = await pool.query(
     "DELETE FROM vehicles WHERE id = $1 RETURNING *",
@@ -87,6 +103,7 @@ export const deleteVehicleById = async (id: number) => {
 
   return result.rows[0];
 };
+
 export const purchaseVehicleById = async (
   id: number,
   quantity: number
@@ -95,13 +112,14 @@ export const purchaseVehicleById = async (
     `UPDATE vehicles
      SET quantity = quantity - $1
      WHERE id = $2
-       AND quantity >= $1
+     AND quantity >= $1
      RETURNING *`,
     [quantity, id]
   );
 
   return result.rows[0];
 };
+
 export const restockVehicleById = async (
   id: number,
   quantity: number

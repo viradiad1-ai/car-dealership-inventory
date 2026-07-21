@@ -5,7 +5,7 @@ import {
   updateVehicleById,
   deleteVehicleById,
   purchaseVehicleById,
-  restockVehicleById,
+  restockVehicleById,getVehicleById
 } from "../models/vehicleModel";
 
 // Add Vehicle
@@ -85,4 +85,7 @@ export const restockVehicle = async (
   }
 
   return vehicle;
+};
+export const fetchVehicleById = async (id: number) => {
+  return await getVehicleById(id);
 };

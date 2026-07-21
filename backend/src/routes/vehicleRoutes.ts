@@ -13,6 +13,7 @@ const router = Router();
 router.post("/", authenticate, createVehicle);
 router.get("/search", searchVehicles);
 router.get("/", getVehicles);
+
 router.put("/:id", authenticate, editVehicle);
 router.delete(
   "/:id",
