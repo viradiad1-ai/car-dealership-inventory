@@ -1,0 +1,14 @@
+### Health Check
+GET http://localhost:5000/
+
+###
+
+### Register User
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Dhruv",
+  "email": "dhruv@test.com",
+  "password": "123456"
+}
