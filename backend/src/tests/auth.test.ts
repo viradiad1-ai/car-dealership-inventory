@@ -7,8 +7,8 @@ describe("Authentication API", () => {
       .post("/api/auth/register")
       .send({
         name: "Dhruv",
-        email: "dhruv@test.com",
-        password: "123456"
+        email: `dhruv${Date.now()}@test.com`,
+        password: "123456",
       });
 
     expect(response.status).toBe(201);
