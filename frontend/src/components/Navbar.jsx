@@ -11,6 +11,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <h2>🚗 Car Dealership</h2>
+      <button onClick={() => navigate("/admin")}>
+        Add Vehicle
+      </button>
 
       <button onClick={logout}>
         Logout

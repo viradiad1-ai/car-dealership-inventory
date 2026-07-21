@@ -5,7 +5,7 @@ import Dashboard from "./pages/Dashboard";
 import Admin from "./pages/Admin";
 import EditVehicle from "./pages/EditVehicle";
 import ProtectedRoute from "./components/ProtectedRoute";
-import AdminRoute from "./components/AdminRoute";
+
 
 function App() {
   return (
@@ -29,18 +29,15 @@ function App() {
         <Route
           path="/admin"
           element={
-            <AdminRoute>
+
               <Admin />
-            </AdminRoute>
           }
         />
 
         <Route
           path="/admin/edit/:id"
           element={
-            <AdminRoute>
               <EditVehicle />
-            </AdminRoute>
           }
         />
       </Routes>

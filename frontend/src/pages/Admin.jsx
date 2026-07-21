@@ -50,60 +50,61 @@ function Admin() {
   };
 
   return (
-  <div className="admin-container">
-    <form className="admin-form" onSubmit={addVehicle}>
-      <h2>Add New Vehicle</h2>
+    <div className="container">
+      <form className="form" onSubmit={addVehicle}>
+        <h2>Add Vehicle</h2>
 
-      <input
-        type="text"
-        name="make"
-        placeholder="Vehicle Make"
-        value={vehicle.make}
-        onChange={handleChange}
-        required
-      />
+        <input
+          type="text"
+          name="make"
+          placeholder="Make"
+          value={vehicle.make}
+          onChange={handleChange}
+          required
+        />
 
-      <input
-        type="text"
-        name="model"
-        placeholder="Vehicle Model"
-        value={vehicle.model}
-        onChange={handleChange}
-        required
-      />
+        <input
+          type="text"
+          name="model"
+          placeholder="Model"
+          value={vehicle.model}
+          onChange={handleChange}
+          required
+        />
 
-      <input
-        type="text"
-        name="category"
-        placeholder="Category"
-        value={vehicle.category}
-        onChange={handleChange}
-        required
-      />
+        <input
+          type="text"
+          name="category"
+          placeholder="Category"
+          value={vehicle.category}
+          onChange={handleChange}
+          required
+        />
 
-      <input
-        type="number"
-        name="price"
-        placeholder="Price"
-        value={vehicle.price}
-        onChange={handleChange}
-        required
-      />
+        <input
+          type="number"
+          name="price"
+          placeholder="Price"
+          value={vehicle.price}
+          onChange={handleChange}
+          required
+        />
 
-      <input
-        type="number"
-        name="quantity"
-        placeholder="Quantity"
-        value={vehicle.quantity}
-        onChange={handleChange}
-        required
-      />
+        <input
+          type="number"
+          name="quantity"
+          placeholder="Quantity"
+          value={vehicle.quantity}
+          onChange={handleChange}
+          required
+        />
 
-      <button type="submit">
-        Add Vehicle
-      </button>
-    </form>
-  </div>
-);}
+        <button type="submit">
+          Add Vehicle
+        </button>
+      </form>
+    </div>
+  );
+}
 
 export default Admin;
