@@ -315,7 +315,7 @@ npm test
 > Replace the image path with the correct location in your repository.
 
 ```markdown
-![Test Report](./test-report.png)
+![Test Report](test-report.png)
 ```
 
 ## Conclusion
