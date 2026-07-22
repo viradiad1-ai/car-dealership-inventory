@@ -250,7 +250,51 @@ The project uses **Jest** and **Supertest** for backend testing.
 - If dependencies are missing, run `npm install` in both the `backend` and `frontend` directories.
 - If API requests fail, verify that the API base URL in `frontend/src/services/api.js` points to the correct backend address.
 
-  ======================================================================================================================================================
+======================================================================================================================================
+  # 📸 Screenshots of Final Application
+
+## Login Page
+
+![Login Page](login.png)
+
+---
+
+## User Dashboard
+
+![Dashboard](dashboard.png)
+
+---
+
+## Add Vehicle
+
+![Add Vehicle](add-Vehicle.png)
+
+---
+
+## Edit Vehicle
+
+![Edit Vehicle](edit-Vehicle.png)
+
+---
+
+## Delete Vehicle
+
+![Delete Vehicle](delete-Vehicle.png)
+
+---
+
+## Search Vehicle
+
+![Search Vehicle](search-vechile.png)
+
+---
+
+## Restock Vehicle
+
+![Restock Vehicle](restock.png)
+
+---
+======================================================================================================================================
 
 # My AI Usage
 AI Tool Used
@@ -315,7 +359,6 @@ npm test
 
 > Replace the image path with the correct location in your repository.
 
-markdown
 ![Test Report](test-report.png)
 
 ## Conclusion
