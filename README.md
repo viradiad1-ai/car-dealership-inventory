@@ -1,6 +1,6 @@
 # 🚗 Car Dealership Inventory System
 
-## Created by using Chatgpt AI Tool.
+This project was developed as part of the TDD Kata using React.js, Node.js, Express.js, PostgreSQL, and Test-Driven Development (TDD). AI assistance (ChatGPT) was used during development and is documented in the **My AI Usage** section.
 
 ## Project Overview 
 
@@ -298,30 +298,27 @@ The project uses **Jest** and **Supertest** for backend testing.
 ---
 ======================================================================================================================================
 
-# My AI Usage
-AI Tool Used
-ChatGPT (OpenAI GPT-5.5)
-How I Used AI
+## My AI Usage
 
-During the development of this project, I used ChatGPT as a programming assistant to improve development speed, understand concepts, and debug issues. AI was used as a learning and productivity tool, while I implemented, tested, and integrated all features myself.
+### AI Tool Used
 
-Specifically, I used ChatGPT for:
+- ChatGPT (OpenAI GPT-5.5)
 
-Understanding the project requirements and planning the application structure.
-Designing the backend architecture using Node.js, Express.js, and PostgreSQL.
-Generating boilerplate code for Express routes, controllers, services, and database models.
-Learning and implementing JWT authentication and role-based authorization (User/Admin).
-Debugging TypeScript, Express, PostgreSQL, React, and Axios errors.
-Building React components such as Login, Register, Dashboard, Admin Dashboard, Navbar, Search Bar, and Vehicle Cards.
-Implementing CRUD operations for vehicle management.
-Developing vehicle purchase, search, update, delete, and restock functionality.
-Improving the frontend UI with responsive layouts and CSS styling.
-Learning Git and GitHub workflows, including commits, branches, and repository management.
-Preparing the application for deployment using Render, Vercel, and Neon PostgreSQL.
-Writing documentation and improving the project's README.
-AI Assistance Statement
+### How I Used AI
 
-AI-generated responses were reviewed, modified, and integrated into the project after understanding the suggested code. All final implementation, testing, debugging, and integration decisions were made by me.
+- Planned the project architecture
+- Designed backend APIs
+- Generated boilerplate code
+- Implemented JWT authentication
+- Built React components
+- Debugged backend and frontend issues
+- Wrote Jest and Supertest test cases
+- Assisted with deployment
+- Helped prepare the README documentation
+
+### Reflection
+
+ChatGPT accelerated development by helping me understand concepts, debug issues, and generate starter code. I reviewed, modified, tested, and integrated all AI-generated suggestions before including them in the final project.
 
 =================================================================================================================================================================
 
@@ -358,8 +355,6 @@ npm test
 - **Success Rate:** **100%**
 
 ### Test Execution Screenshot
-
-> Replace the image path with the correct location in your repository.
 
 ![Test Report](test-report.png)
 
