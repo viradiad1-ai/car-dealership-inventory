@@ -269,7 +269,7 @@ The project uses **Jest** and **Supertest** for backend testing.
 
 ## Add Vehicle
 
-![Add Vehicle](add-Vehicle.png)
+![Add Vehicle](add-Vehile.png)
 
 ---
 
