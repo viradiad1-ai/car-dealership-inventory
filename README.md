@@ -66,6 +66,7 @@ The project was developed using **Test-Driven Development (TDD)** principles, wi
 - Vercel (Frontend)
 - Render (Backend)
 - Neon PostgreSQL (Database)
+
   =====================================================================================================================================================
 
   # 🚀 Local Setup and Running the Project
@@ -248,7 +249,8 @@ The project uses **Jest** and **Supertest** for backend testing.
 - Start the backend before launching the frontend.
 - If dependencies are missing, run `npm install` in both the `backend` and `frontend` directories.
 - If API requests fail, verify that the API base URL in `frontend/src/services/api.js` points to the correct backend address.
-   ======================================================================================================================================================
+
+  ======================================================================================================================================================
 
 # My AI Usage
 AI Tool Used
@@ -313,7 +315,7 @@ npm test
 > Replace the image path with the correct location in your repository.
 
 ```markdown
-<img width="1651" height="1080" alt="Screenshot_(512) 1" src="https://github.com/user-attachments/assets/02d212c0-8de9-44b1-989f-fe5ed7b26ab3" />
+![Test Report](test-report.png)
 ```
 
 ## Conclusion
