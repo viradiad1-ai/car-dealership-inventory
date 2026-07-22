@@ -276,6 +276,7 @@ Writing documentation and improving the project's README.
 AI Assistance Statement
 
 AI-generated responses were reviewed, modified, and integrated into the project after understanding the suggested code. All final implementation, testing, debugging, and integration decisions were made by me.
+
 =================================================================================================================================================================
 
 # 🧪 Test Report
@@ -314,9 +315,8 @@ npm test
 
 > Replace the image path with the correct location in your repository.
 
-```markdown
+markdown
 ![Test Report](test-report.png)
-```
 
 ## Conclusion
 
