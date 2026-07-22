@@ -6,7 +6,7 @@ The **Car Dealership Inventory System** is a full-stack web application develope
 
 The application follows a client-server architecture with a **React.js** frontend, a **Node.js and Express.js** backend, and a **PostgreSQL** database. It also implements **JWT (JSON Web Token) authentication** to provide secure user login and **role-based access control** to restrict administrative operations to authorized users only.
 
-The project was developed using **Test-Driven Development (TDD)** principles, with backend APIs tested using **Jest** and **Supertest** to ensure reliability and correctness.
+The project was developed using **Test-Driven Development (TDD)** principles, with backend APIs tested using **Jest** and **Supertest** to ensure reliability and correctness. 
 
 ## Project Objectives
 
