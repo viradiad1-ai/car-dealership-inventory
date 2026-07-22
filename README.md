@@ -1,5 +1,7 @@
 # 🚗 Car Dealership Inventory System
 
+##Created by using Chatgpt AI Tool.
+
 ## Project Overview 
 
 The **Car Dealership Inventory System** is a full-stack web application developed to simplify the management of vehicle inventory for a car dealership. It provides a secure and user-friendly platform where customers can browse available vehicles, search by different criteria, and purchase vehicles, while administrators can efficiently manage the inventory.
