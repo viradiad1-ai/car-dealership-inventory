@@ -64,11 +64,6 @@ The project was developed using **Test-Driven Development (TDD)** principles, wi
 - Jest
 - Supertest
 
-### Deployment
-- Vercel (Frontend)
-- Render (Backend)
-- Neon PostgreSQL (Database)
-
   =====================================================================================================================================================
 
   # 🚀 Local Setup and Running the Project
