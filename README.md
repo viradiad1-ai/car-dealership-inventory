@@ -261,7 +261,7 @@ The project uses **Jest** and **Supertest** for backend testing.
 
 ---
 
-## User Dashboard
+## Dashboard
 
 ![Dashboard](dashboard.png)
 
